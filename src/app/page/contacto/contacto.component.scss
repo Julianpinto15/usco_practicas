@@ -1,0 +1,46 @@
+@import "../../../base_scss/variables";
+
+header {
+  height: 11.2rem;
+  width: 100%;
+  margin-bottom: 6rem;
+  background: rgb(13, 89, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 89, 23, 1) 15%,
+    rgba(59, 148, 56, 1) 18%,
+    rgba(59, 148, 56, 1) 24%
+  );
+}
+
+h1 {
+  font-size: 3.7rem;
+  font-family: $fuente_principal;
+  font-weight: $extraBold;
+}
+
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 28rem;
+  height: 28rem;
+  background-color: $gris;
+  border-radius: 5rem;
+
+  label {
+    color: $blanco;
+  }
+
+  input {
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 3rem;
+}
